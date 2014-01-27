@@ -13,6 +13,12 @@ Directory Structure:
     |-- public
     |-- lib
 
+### Usage
+
+This sample app is self explanatory.
+
+It uses Mongoose for ORM. Mongo DB for the database. Swig for templating.
+
 ### License
 
 MIT

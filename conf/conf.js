@@ -2,7 +2,7 @@
  Global variables:
  global.isProd - checks if running in openshift server
  connections.mainDb - main mongoose db
- models.[model name]
+ models.[model name] - returns a Mongoose Model
  oils.isDebug - setting to true usually means more logging
 */
 
