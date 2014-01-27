@@ -15,6 +15,24 @@ Directory Structure:
     |-- public
     |-- lib
 
+### Set-Up
+
+For OpenShift apps, after creating your node js + mongodb application, clone the project to your local and go to that directory. In the command line, do the ff:
+
+```
+git remote add upstream -m master https://github.com/mannyvergel/oils-js-quickstart.git
+```
+
+```
+git pull -s recursive -X theirs upstream master
+```
+
+```
+git push
+```
+
+or you can just simply Download the zip version of this project and copy-paste it to your node js application.
+
 ### Usage
 
 This sample app is self explanatory. Just browse through the directories and files and you will get the hang of it.
