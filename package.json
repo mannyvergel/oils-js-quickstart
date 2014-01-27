@@ -25,7 +25,7 @@
   },
 
   "dependencies": {
-    "oils": "https://github.com/mannyvergel/oils-js.git"
+    "oils": "0.1.x"
   },
   "devDependencies": {},
   "bundleDependencies": [],
