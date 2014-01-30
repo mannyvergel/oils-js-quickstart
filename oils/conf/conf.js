@@ -9,7 +9,7 @@
  e.g. oils.conf.ipAddress
 */
 
-module.exports = {
+var conf = {
 	ipAddress: process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1',
 	port: process.env.OPENSHIFT_NODEJS_PORT || 8080,
 	connections: {
@@ -23,3 +23,4 @@ module.exports = {
 	isDebug: false
 }
 
+module.exports = conf;
